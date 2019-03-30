@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, TextInput, ActivityIndicator, Image,ImageBackground, TouchableHighlight } from 'react-native';
-import Header from './comp/header';
-import Footer from './comp/footer';
+import Header from './header';
+import Footer from './footer';
 
 export default class WeatherAsycn126 extends React.Component {
     static navigationOptions = {
